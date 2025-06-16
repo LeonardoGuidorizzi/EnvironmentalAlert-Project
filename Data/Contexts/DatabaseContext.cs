@@ -12,6 +12,8 @@ namespace Fiap.Api.EnvironmentalAlert.Data.Contexts
         public DbSet<DeviceConsumptionModel> DeviceConsumptions { get; set; } = null!;
         public DbSet<ConsumptionAlertModel> ConsumptionAlerts { get; set; } = null!;
 
+        public DbSet<UserModel> Users { get; set; }
+
         protected DatabaseContext()
         {
         }
@@ -99,6 +101,38 @@ namespace Fiap.Api.EnvironmentalAlert.Data.Contexts
                       .WithMany(d => d.ConsumptionAlerts)
                       .HasForeignKey(e => e.DeviceId)
                       .OnDelete(DeleteBehavior.Cascade);
+            });
+
+            modelBuilder.Entity<UserModel>(entity =>
+            {
+                entity.ToTable("USERS");
+
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.Id)
+                      .HasColumnName("ID")
+                      .ValueGeneratedOnAdd();
+
+                entity.Property(e => e.Username)
+                      .HasColumnName("USERNAME")
+                      .IsRequired()
+                      .HasMaxLength(100);
+
+                entity.Property(e => e.PasswordHash)
+                      .HasColumnName("PASSWORD_HASH")
+                      .IsRequired()
+                      .HasMaxLength(255);
+
+                entity.Property(e => e.Email)
+                      .HasColumnName("EMAIL")
+                      .IsRequired()
+                      .HasMaxLength(100);
+
+                entity.Property(e => e.Role)
+                      .HasColumnName("ROLE")
+                      .HasConversion<string>() // Salva como "Admin", "User"
+                      .IsRequired()
+                      .HasMaxLength(20);
             });
 
             base.OnModelCreating(modelBuilder);

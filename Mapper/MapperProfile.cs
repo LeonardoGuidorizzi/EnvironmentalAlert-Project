@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Fiap.Api.EnvironmentalAlert.Enums;
 using Fiap.Api.EnvironmentalAlert.Model;
+using Fiap.Api.EnvironmentalAlert.ViewModel.Auth;
 using Fiap.Api.EnvironmentalAlert.ViewModel.ConsumptionAlert;
 using Fiap.Api.EnvironmentalAlert.ViewModel.Device;
 using Fiap.Api.EnvironmentalAlert.ViewModel.DeviceConsumption;
@@ -42,6 +44,19 @@ namespace Fiap.Api.EnvironmentalAlert.Mapper
             CreateMap<CreateConsumptionAlertViewModel, ConsumptionAlertModel>();
 
             CreateMap<UpdateConsumptionAlertViewModel, ConsumptionAlertModel>();
+
+            // ---------------- AUTH ----------------
+
+            CreateMap<RegisterViewModel, UserModel>()
+                .ForMember(dest => dest.PasswordHash, opt => opt.Ignore()) // será gerado depois com hashing
+                .ForMember(dest => dest.Role, opt => opt.MapFrom(src => src.Role)); // padrão: User
+            CreateMap<UserModel, AuthResponseViewModel>()
+                .ForMember(dest => dest.Role, opt => opt.MapFrom(src => src.Role.ToString()))
+                .ForMember(dest => dest.Token, opt => opt.Ignore());
+
+            // ---------------- USER ----------------
+            CreateMap<UserModel, UserViewModel>().ReverseMap();
+
         }
     }
 }

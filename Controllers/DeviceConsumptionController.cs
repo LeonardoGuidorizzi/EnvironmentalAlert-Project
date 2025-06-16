@@ -1,5 +1,7 @@
-﻿using Fiap.Api.EnvironmentalAlert.Services.Interfaces;
+﻿using Fiap.Api.EnvironmentalAlert.Enums;
+using Fiap.Api.EnvironmentalAlert.Services.Interfaces;
 using Fiap.Api.EnvironmentalAlert.ViewModel.DeviceConsumption;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,6 +9,7 @@ namespace Fiap.Api.EnvironmentalAlert.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class DeviceConsumptionController : ControllerBase
     {
         private readonly IDeviceConsumptionService _service;
@@ -15,9 +18,11 @@ namespace Fiap.Api.EnvironmentalAlert.Controllers
             _service = service;
         }
         [HttpGet]
+        [Authorize(Roles = $"{nameof(UserRole.Admin)},{nameof(UserRole.User)}")]
         public async Task<IActionResult> GetAllDeviceConsumptions() =>  Ok(await _service.GetAllAsync());
 
         [HttpGet("{id}")]
+        [Authorize(Roles = $"{nameof(UserRole.Admin)},{nameof(UserRole.User)}")]
         public async Task<IActionResult> GetDeviceConsumptionById(int id)
         {
             var deviceConsumption = await _service.GetByIdAsync(id);
@@ -25,6 +30,7 @@ namespace Fiap.Api.EnvironmentalAlert.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = nameof(UserRole.Admin))]
         public async Task<ActionResult> CreateDeviceConsumption([FromBody] CreateDeviceConsumptionViewModel model)
         {
             var created  = await  _service.AddAsync(model);
@@ -32,6 +38,7 @@ namespace Fiap.Api.EnvironmentalAlert.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = nameof(UserRole.Admin))]
         public async Task<IActionResult> UpdateDeviceConsumption(int id, [FromBody] UpdateDeviceConsumptionViewModel model)
         {
             try
@@ -44,6 +51,7 @@ namespace Fiap.Api.EnvironmentalAlert.Controllers
             }
         }
         [HttpDelete("{id}")]
+        [Authorize(Roles = nameof(UserRole.Admin))]
         public async Task<IActionResult> DeleteDeviceConsumption(int id)
         {
             var deleted = await _service.DeleteAsync(id);

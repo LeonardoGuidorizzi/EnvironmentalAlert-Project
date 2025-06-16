@@ -122,6 +122,44 @@ namespace Fiap.Api.EnvironmentalAlert.Migrations
                     b.ToTable("DEVICE", "RM558332");
                 });
 
+            modelBuilder.Entity("Fiap.Api.EnvironmentalAlert.Model.UserModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("NUMBER(10)")
+                        .HasColumnName("ID");
+
+                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("NVARCHAR2(100)")
+                        .HasColumnName("EMAIL");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("NVARCHAR2(255)")
+                        .HasColumnName("PASSWORD_HASH");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("NVARCHAR2(20)")
+                        .HasColumnName("ROLE");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("NVARCHAR2(100)")
+                        .HasColumnName("USERNAME");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("USERS", "RM558332");
+                });
+
             modelBuilder.Entity("Fiap.Api.EnvironmentalAlert.Model.ConsumptionAlertModel", b =>
                 {
                     b.HasOne("Fiap.Api.EnvironmentalAlert.Model.DeviceModel", "Device")
