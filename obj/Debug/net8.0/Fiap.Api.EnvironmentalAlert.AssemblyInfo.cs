@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fiap.Api.EnvironmentalAlert")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e38b6f47a19d3470e003d9831a3ae12a31dd4df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+735dd97e7cba8d5e8833a929628b23241d2deb37")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fiap.Api.EnvironmentalAlert")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fiap.Api.EnvironmentalAlert")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

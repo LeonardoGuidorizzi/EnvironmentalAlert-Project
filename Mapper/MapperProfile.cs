@@ -54,6 +54,9 @@ namespace Fiap.Api.EnvironmentalAlert.Mapper
                 .ForMember(dest => dest.Role, opt => opt.MapFrom(src => src.Role.ToString()))
                 .ForMember(dest => dest.Token, opt => opt.Ignore());
 
+            CreateMap<RegisterViewModel, UserModel>()
+                .ForMember(dest => dest.Role, opt => opt.MapFrom(src => Enum.Parse<UserRole>(src.Role)));
+
             // ---------------- USER ----------------
             CreateMap<UserModel, UserViewModel>().ReverseMap();
 

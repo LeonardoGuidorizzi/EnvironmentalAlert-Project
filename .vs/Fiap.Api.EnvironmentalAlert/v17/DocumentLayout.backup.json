@@ -3,49 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33ACB0D9-05EA-4533-9C90-0A0A4D0E8233}|..\\Fiap.Api.EnvironmetalAlert.Test\\Fiap.Api.EnvironmetalAlert.Test.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmetalalert.test\\deviceconsumption\\deviceconsumptioncontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33ACB0D9-05EA-4533-9C90-0A0A4D0E8233}|..\\Fiap.Api.EnvironmetalAlert.Test\\Fiap.Api.EnvironmetalAlert.Test.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmetalalert.test\\auth\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\controllers\\deviceconsumptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:controllers\\deviceconsumptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\viewmodel\\auth\\authresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:viewmodel\\auth\\authresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33ACB0D9-05EA-4533-9C90-0A0A4D0E8233}|..\\Fiap.Api.EnvironmetalAlert.Test\\Fiap.Api.EnvironmetalAlert.Test.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmetalalert.test\\consumptionalert\\consumptionalertcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\controllers\\consumptionalertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:controllers\\consumptionalertcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33ACB0D9-05EA-4533-9C90-0A0A4D0E8233}|..\\Fiap.Api.EnvironmetalAlert.Test\\Fiap.Api.EnvironmetalAlert.Test.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmetalalert.test\\device\\devicecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:controllers\\devicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\model\\devicemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:model\\devicemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\model\\deviceconsumptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:model\\deviceconsumptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\model\\consumptionalertmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:model\\consumptionalertmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\mapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:mapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\mapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:mapper\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|c:\\users\\leonardo\\codigo\\projetos-faculdade\\projetos-net\\fiap.api.environmentalalert\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{525604ED-B24C-47B4-B23D-28B795AA5398}|Fiap.Api.EnvironmentalAlert.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,162 +33,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeviceConsumptionControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmetalAlert.Test\\DeviceConsumption\\DeviceConsumptionControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Fiap.Api.EnvironmetalAlert.Test\\DeviceConsumption\\DeviceConsumptionControllerTests.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmetalAlert.Test\\DeviceConsumption\\DeviceConsumptionControllerTests.cs",
-              "RelativeToolTip": "..\\Fiap.Api.EnvironmetalAlert.Test\\DeviceConsumption\\DeviceConsumptionControllerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T21:17:05.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ConsumptionAlertControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmetalAlert.Test\\ConsumptionAlert\\ConsumptionAlertControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Fiap.Api.EnvironmetalAlert.Test\\ConsumptionAlert\\ConsumptionAlertControllerTests.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmetalAlert.Test\\ConsumptionAlert\\ConsumptionAlertControllerTests.cs",
-              "RelativeToolTip": "..\\Fiap.Api.EnvironmetalAlert.Test\\ConsumptionAlert\\ConsumptionAlertControllerTests.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAwHsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T21:04:14.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeviceControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmetalAlert.Test\\Device\\DeviceControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Fiap.Api.EnvironmetalAlert.Test\\Device\\DeviceControllerTests.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmetalAlert.Test\\Device\\DeviceControllerTests.cs",
-              "RelativeToolTip": "..\\Fiap.Api.EnvironmetalAlert.Test\\Device\\DeviceControllerTests.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwHgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T18:59:49.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeviceModel.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Model\\DeviceModel.cs",
-              "RelativeDocumentMoniker": "Model\\DeviceModel.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Model\\DeviceModel.cs",
-              "RelativeToolTip": "Model\\DeviceModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T17:12:30.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DeviceConsumptionModel.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Model\\DeviceConsumptionModel.cs",
-              "RelativeDocumentMoniker": "Model\\DeviceConsumptionModel.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Model\\DeviceConsumptionModel.cs",
-              "RelativeToolTip": "Model\\DeviceConsumptionModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T17:12:21.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ConsumptionAlertModel.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Model\\ConsumptionAlertModel.cs",
-              "RelativeDocumentMoniker": "Model\\ConsumptionAlertModel.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Model\\ConsumptionAlertModel.cs",
-              "RelativeToolTip": "Model\\ConsumptionAlertModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T17:12:05.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeviceConsumptionController.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\DeviceConsumptionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DeviceConsumptionController.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\DeviceConsumptionController.cs",
-              "RelativeToolTip": "Controllers\\DeviceConsumptionController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAUwDMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T05:53:35.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T21:41:56.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConsumptionAlertController.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\ConsumptionAlertController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConsumptionAlertController.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\ConsumptionAlertController.cs",
-              "RelativeToolTip": "Controllers\\ConsumptionAlertController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T05:49:47.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeviceController.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\DeviceController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DeviceController.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\DeviceController.cs",
-              "RelativeToolTip": "Controllers\\DeviceController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T03:23:08.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Mapper\\MapperProfile.cs",
               "RelativeDocumentMoniker": "Mapper\\MapperProfile.cs",
               "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Mapper\\MapperProfile.cs",
               "RelativeToolTip": "Mapper\\MapperProfile.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T04:43:40.545Z",
+              "WhenOpened": "2025-06-16T23:20:38.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Model\\UserModel.cs",
-              "RelativeDocumentMoniker": "Model\\UserModel.cs",
-              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Model\\UserModel.cs",
-              "RelativeToolTip": "Model\\UserModel.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AuthResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\ViewModel\\Auth\\AuthResponseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Auth\\AuthResponseViewModel.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\ViewModel\\Auth\\AuthResponseViewModel.cs",
+              "RelativeToolTip": "ViewModel\\Auth\\AuthResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T21:41:17.888Z",
+              "WhenOpened": "2025-06-16T23:17:09.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAiwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:07:14.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T23:07:13.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmetalAlert.Test\\Auth\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\Fiap.Api.EnvironmetalAlert.Test\\Auth\\AuthControllerTests.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmetalAlert.Test\\Auth\\AuthControllerTests.cs*",
+              "RelativeToolTip": "..\\Fiap.Api.EnvironmetalAlert.Test\\Auth\\AuthControllerTests.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAawB8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:58:28.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\codigo\\projetos-faculdade\\projetos-net\\Fiap.Api.EnvironmentalAlert\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T22:56:13.185Z",
               "EditorCaption": ""
             }
           ]
