@@ -18,7 +18,7 @@ namespace Fiap.Api.EnvironmentalAlert.Controllers
     {
         private readonly IDeviceService _service;
 
-        public DeviceController(IDeviceService service)
+        public DeviceController(IDeviceService service, AutoMapper.IMapper @object)
         {
             _service = service;
         }

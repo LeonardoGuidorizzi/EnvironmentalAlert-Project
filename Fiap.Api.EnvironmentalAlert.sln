@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36121.58 d17.14
+VisualStudioVersion = 17.14.36121.58
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.Api.EnvironmentalAlert", "Fiap.Api.EnvironmentalAlert.csproj", "{525604ED-B24C-47B4-B23D-28B795AA5398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.Api.EnvironmetalAlert.Test", "..\Fiap.Api.EnvironmetalAlert.Test\Fiap.Api.EnvironmetalAlert.Test.csproj", "{33ACB0D9-05EA-4533-9C90-0A0A4D0E8233}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{525604ED-B24C-47B4-B23D-28B795AA5398}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{525604ED-B24C-47B4-B23D-28B795AA5398}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{525604ED-B24C-47B4-B23D-28B795AA5398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33ACB0D9-05EA-4533-9C90-0A0A4D0E8233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33ACB0D9-05EA-4533-9C90-0A0A4D0E8233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33ACB0D9-05EA-4533-9C90-0A0A4D0E8233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33ACB0D9-05EA-4533-9C90-0A0A4D0E8233}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
